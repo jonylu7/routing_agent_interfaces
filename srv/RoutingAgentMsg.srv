@@ -1,0 +1,7 @@
+#waypointgraph
+string waypoint_graph_data
+#taskandvehicles           
+string task_locations_data
+string vehicle_start_locations_data
+---
+string response_file_data

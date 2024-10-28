@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(simple_interfaces)
+project(routing_agent_interfaces)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -22,6 +22,7 @@ set (INTERFACES_LIST
   "msg/StampedBoolean.msg"
   "msg/StampedString.msg"
   "srv/ORAgentMsg.srv"
+  "srv/RoutingAgentMsg.srv"
 )
 
 set (DEPENDENCIES_LIST
