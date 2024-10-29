@@ -1,0 +1,4 @@
+bool can_go_to
+string I_am_at_nodeid
+---
+string path_to_next_task
