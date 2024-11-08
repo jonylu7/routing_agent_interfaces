@@ -22,7 +22,10 @@ set (INTERFACES_LIST
   "msg/StampedBoolean.msg"
   "msg/StampedString.msg"
   "srv/ORAgentMsg.srv"
-  "srv/RoutingAgentMsg.srv"
+  "srv/RoutingServiceMsg.srv"
+  "srv/NavServiceMsg.srv"
+  "srv/MergeWaypointGraphServiceMsg.srv"
+  "srv/LoadWaypointGraphServiceMsg.srv"
 )
 
 set (DEPENDENCIES_LIST
